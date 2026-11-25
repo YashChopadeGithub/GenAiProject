@@ -1,0 +1,15 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.0
+torchvision>=0.15
+transformers
+Pillow>=9.0
+scikit-image>=0.20
+matplotlib>=3.7
+tqdm
+numpy
+fastapi
+uvicorn
+python-multipart
+rapidocr-onnxruntime>=1.4.4
+streamlit>=1.35.0
+huggingface_hub>=0.23.0
