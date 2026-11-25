@@ -29,5 +29,6 @@ ENV HOME=/home/user \
 # Expose the port the app runs on
 EXPOSE 8000
 
-# Start the FastAPI application
+# Start the FastAPI application which serves the identical HTML/CSS/JS UI
+# plus all /api/* inference endpoints — same UI as http://127.0.0.1:8000
 CMD ["sh", "-c", "uvicorn api.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
